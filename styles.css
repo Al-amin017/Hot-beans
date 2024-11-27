@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('Picture1.png');
+}
+header {
+    background-color: #0400f8;
+    padding: 10px 20px;
+    text-align: center;
+}
+h1{
+    color: white;
+}
+nav {
+    margin: 10px 0;
+}
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: rgb(253, 246, 246);
+    font-weight: bold;
+}
+main{
+    color:#ffffff;
+    background-color: #0400f8;
+}
+section{
+    color:#ffffff;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+ 
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
